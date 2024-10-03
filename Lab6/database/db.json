@@ -1,0 +1,41 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "title": "Ca nấu lẩu, nấu mì mini",
+        "shop": "Shop Devang",
+        "image": "https://example.com/path_to_image/canaulau.png"
+      },
+      {
+        "id": "2",
+        "title": "1KG KHÔ GÀ BƠ TỎI",
+        "shop": "Shop LTD Food",
+        "image": "https://example.com/path_to_image/ga_bo_toi.png"
+      },
+      {
+        "id": "3",
+        "title": "Xe cần cẩu đa năng",
+        "shop": "Shop Thế giới đồ chơi",
+        "image": "https://example.com/path_to_image/xa_can_cau.png"
+      },
+      {
+        "id": "4",
+        "title": "Đồ chơi dạng mô hình",
+        "shop": "Shop Thế giới đồ chơi",
+        "image": "https://example.com/path_to_image/dochoidangmohinh.png"
+      },
+      {
+        "id": "5",
+        "title": "Lãnh đạo giản đơn",
+        "shop": "Shop Minh Long Book",
+        "image": "https://example.com/path_to_image/lanh_dao_gian_don.png"
+      },
+      {
+        "id": "6",
+        "title": "Hiểu lòng con trẻ",
+        "shop": "Shop Minh Long Book",
+        "image": "https://example.com/path_to_image/hieu_long_con_tre.png"
+      }
+    ]
+  }
+  

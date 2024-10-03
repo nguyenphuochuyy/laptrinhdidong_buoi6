@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import anh1 from "./assets/canaulau.png";
 const DATA = [
@@ -42,7 +42,7 @@ const DATA = [
 
 const Item = ({ title, shop, image }) => (
   <View style={styles.item}>
-    <Image source={image} style={styles.image} />
+    <Image source={""} style={styles.image} />
     <View style={styles.info}>
       <Text style={styles.title}>{title}</Text>
       <Text style={styles.shop}>{shop}</Text>
@@ -54,6 +54,15 @@ const Item = ({ title, shop, image }) => (
 );
 
 const ChatListScreen = () => {
+  const [data , setData] = useState([]);
+  useEffect(()=>{
+    fetch('https://dummyjson.com/c/371a-d5ef-4352-9bce')
+    .then(res=> res.json())
+    .then(data=>{
+      setData(data)
+      
+    })
+  },[])
   return (
     <View style={styles.container}>
       <Text style={styles.headerText}>
